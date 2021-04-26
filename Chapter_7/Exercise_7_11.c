@@ -1,4 +1,11 @@
-// Глава 7 упражнение 11
+/*
+ *************************************************
+ *  Stephen Prata The C Programming Language    **
+ *      Lectures and Exercises 6th ed.          **
+ *                                              **
+ *  Programming Exercises 7.11                   **
+ * ***********************************************
+ */
 #include <stdio.h>
 #define PRICE_ARTICHOKE 2.05
 #define PRICE_BEET 1.15
