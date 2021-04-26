@@ -6,7 +6,7 @@
  *  Programming Exercises 7.10                   **
  * ***********************************************
  */
-#include <stdio.h> // It was me, Dio!!!
+#include <stdio.h>
 #define Tax_interest_one 0.15
 #define Tax_interest_two 0.28
 #define Cat1 17850
@@ -20,7 +20,7 @@ int main()
 {
     int Category_i;
     double Income_d, Taxes_d;
-    
+
     printf("Укажите номер своей категории\n");
     printf("\n1) Одинокий\n2) Глава семейства\n");
     printf("3) Состоит в браке, совместное ведение хозяйства\n");
@@ -45,20 +45,20 @@ int main()
                (Income_d - Taxes_d), Taxes_d);
         break;
     }
-    
+
     return 0;
 }
 
 double Taxes(int Category, double Income)
 {
     double Sum_taxes;
-    
+
     if (Income <= 0)
     {
         printf("Вы указали неверный доход\n");
         return -1;
     }
-    
+
     switch (Category)
     {
         case 1 :

@@ -1,5 +1,5 @@
 // Глава 7 упражнение 11
-#include <stdio.h> // It was me, Dio!!!
+#include <stdio.h>
 #define PRICE_ARTICHOKE 2.05
 #define PRICE_BEET 1.15
 #define PRICE_CARROT 1.09
@@ -16,6 +16,6 @@ double Delivery();
 // Выводим итог.
 int main()
 {
-    
+
     return 0;
 }
