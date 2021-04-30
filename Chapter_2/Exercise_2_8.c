@@ -15,21 +15,21 @@ void two(void);
 int main()
 {
     system("chcp 1251>0");
-    printf("Начинаем:\n");
+    printf("РќР°С‡РёРЅР°РµРј:\n");
     one_three();
-    printf("\nпорядок!\n");
+    printf("\nРїРѕСЂСЏРґРѕРє!\n");
 
     return 0;
 }
 
 void one_three(void)
 {
-    printf("один\n");
+    printf("РѕРґРёРЅ\n");
     two();
-    printf("\nтри");
+    printf("\nС‚СЂРё");
 }
 
 void two(void)
 {
-    printf("два");
+    printf("РґРІР°");
 }

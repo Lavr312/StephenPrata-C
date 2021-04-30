@@ -29,5 +29,5 @@ int main()
 
 void happy(void)
 {
-    printf("Улыбайся!");
+    printf("РЈР»С‹Р±Р°Р№СЃСЏ!");
 }

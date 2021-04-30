@@ -17,10 +17,10 @@ int main()
     long days;
 
     system("chcp 1251>0");
-    printf("Укажите ваш возраст\n");
+    printf("РЈРєР°Р¶РёС‚Рµ РІР°С€ РІРѕР·СЂР°СЃС‚\n");
     scanf("%d", &years);
     days = (long) (years*DAYS_IN_YEARS);
-    printf("%d лет = %ld дней.\n", years, days);
+    printf("%d Р»РµС‚ = %ld РґРЅРµР№.\n", years, days);
 
     return 0;
 }
