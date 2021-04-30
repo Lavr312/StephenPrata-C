@@ -13,10 +13,10 @@
 int main()
 {
     system("chcp 1251>0");
-    printf("Иван Иванов\n");
-    printf("Иван\n");
-    printf("Иванов\n");
-    printf("Иван Иванов\n");
+    printf("РРІР°РЅ РРІР°РЅРѕРІ\n");
+    printf("РРІР°РЅ\n");
+    printf("РРІР°РЅРѕРІ\n");
+    printf("РРІР°РЅ РРІР°РЅРѕРІ\n");
 
     return 0;
 }
