@@ -16,10 +16,10 @@ int main()
     double inches, centimeters;
 
     system("chcp 1251>0");
-    printf("Укажите количество дюймов\n");
+    printf("РЈРєР°Р¶РёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РґСЋР№РјРѕРІ\n");
     scanf("%lf", &inches);
     centimeters = inches*CENTIMETERS_TO_INCHES;
-    printf("%.2lf дюймов = %.2lf сантиметров.\n", inches, centimeters);
+    printf("%.2lf РґСЋР№РјРѕРІ = %.2lf СЃР°РЅС‚РёРјРµС‚СЂРѕРІ.\n", inches, centimeters);
 
     return 0;
 }
