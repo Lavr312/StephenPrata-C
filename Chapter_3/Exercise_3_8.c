@@ -19,7 +19,7 @@ int main()
     double pints, cups, ounces, tablespoons, teaspoons;
 
     system("chcp 1251>0");
-    printf("Укажите объём в чашках\n");
+    printf("РЈРєР°Р¶РёС‚Рµ РѕР±СЉС‘Рј РІ С‡Р°С€РєР°С…\n");
     scanf("%lf", &cups);
 
     pints = cups/CUPS_PER_PINT;
@@ -27,10 +27,10 @@ int main()
     tablespoons = ounces*TABLESPOONS_TO_OUNCE;
     teaspoons = tablespoons*TEASPOONS_IN_A_TABLESPOON;
 
-    printf("%.1lf пинт\n", pints);
-    printf("%.1lf унций\n", ounces);
-    printf("%.1lf столовых ложек\n", tablespoons);
-    printf("%.1lf чайных ложек\n", teaspoons);
+    printf("%.1lf РїРёРЅС‚\n", pints);
+    printf("%.1lf СѓРЅС†РёР№\n", ounces);
+    printf("%.1lf СЃС‚РѕР»РѕРІС‹С… Р»РѕР¶РµРє\n", tablespoons);
+    printf("%.1lf С‡Р°Р№РЅС‹С… Р»РѕР¶РµРє\n", teaspoons);
 
     return 0;
 }

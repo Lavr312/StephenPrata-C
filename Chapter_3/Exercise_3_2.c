@@ -15,7 +15,7 @@ int main()
     int symbol;
 
     system("chcp 1251>0");
-    printf("Введите значение ASCII символа\n");
+    printf("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ ASCII СЃРёРјРІРѕР»Р°\n");
     scanf("%d", &symbol);
     printf("%d = %c", symbol, symbol);
 

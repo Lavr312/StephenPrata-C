@@ -16,7 +16,7 @@ int main()
     double centimeters, inches;
 
     system("chcp 1251>0");
-    printf("Укажите свой рост в сантиметрах\n");
+    printf("РЈРєР°Р¶РёС‚Рµ СЃРІРѕР№ СЂРѕСЃС‚ РІ СЃР°РЅС‚РёРјРµС‚СЂР°С…\n");
     scanf("%lf", &centimeters);
     inches = centimeters/CENTIMETERS_TO_INCHES;
     printf("%lf", inches);

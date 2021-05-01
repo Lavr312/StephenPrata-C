@@ -15,9 +15,11 @@ int main()
 {
     double count=2.12345678;
     float countf=count;
+
     system("chcp 1251>0");
     printf("Int max: %d (%d)\n", INT_MAX, INT_MAX+1);
     printf("Int min: %d (%d)\n", INT_MIN, INT_MIN-1);
     printf("Double %lf = Float %f\n", count, countf);
+
     return 0;
 }

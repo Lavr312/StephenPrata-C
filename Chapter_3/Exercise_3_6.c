@@ -17,7 +17,7 @@ int main()
     double kwarta;
 
     system("chcp 1251>0");
-    printf("Укажите объём в квартах\n");
+    printf("РЈРєР°Р¶РёС‚Рµ РѕР±СЉС‘Рј РІ РєРІР°СЂС‚Р°С…\n");
     scanf("%lf", &kwarta);
     printf("%e", MOLECULAR_MASS*GRAMM_IN_KWARTA*kwarta);
 

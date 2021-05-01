@@ -14,7 +14,7 @@ int main()
 {
     system("chcp 1251>0");
     printf("\a");
-    printf("Вика вскрикнула.\n");
+    printf("Р’РёРєР° РІСЃРєСЂРёРєРЅСѓР»Р°.\n");
 
     return 0;
 }
