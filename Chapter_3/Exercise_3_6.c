@@ -19,7 +19,7 @@ int main()
     system("chcp 1251>0");
     printf("Укажите объём в квартах\n");
     scanf("%lf", &kwarta);
-    printf("%e", MOLECULAR_MASS*GRAMM_IN_KWARTA*kwarta);
+    printf("%e молекул\n", GRAMM_IN_KWARTA*kwarta/MOLECULAR_MASS);
 
     return 0;
 }
