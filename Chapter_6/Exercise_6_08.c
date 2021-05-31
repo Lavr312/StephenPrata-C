@@ -3,7 +3,7 @@
  *  Stephen Prata The C Programming Language    **
  *      Lectures and Exercises 6th ed.          **
  *                                              **
- *  Programming Exercises 6.1                   **
+ *  Programming Exercises 6.8                   **
  *************************************************
  */
 
