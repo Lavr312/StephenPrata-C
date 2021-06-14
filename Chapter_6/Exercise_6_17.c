@@ -3,7 +3,7 @@
  *  Stephen Prata The C Programming Language    **
  *      Lectures and Exercises 6th ed.          **
  *                                              **
- *  Programming Exercises 6.1                   **
+ *  Programming Exercises 6.17                  **
  *************************************************
  */
 
@@ -11,17 +11,18 @@
 
 int main()
 {
-    char alphabet[26];
+    double chuckysContribution;
+    int years = 0;
 
-    //system("chcp 1251>0"); // windows encoding
-    for (int i = 0; i < 26; i++)
+    system("chcp 1251>0"); // windows encoding
+    chuckysContribution = 1000000;
+    while (chuckysContribution > 0)
     {
-        alphabet[i] = 'a' + i;
+        chuckysContribution *= 1.08;
+        chuckysContribution -= 100000;
+        years++;
     }
-    for (int i = 0; i < 26; i++)
-    {
-        printf("%c\n", alphabet[i]);
-    }
+    printf("Вклад Чаки Лаки достигнет нуля за %d лет.\n", years);
 
     return 0;
 }

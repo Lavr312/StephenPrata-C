@@ -3,7 +3,7 @@
  *  Stephen Prata The C Programming Language    **
  *      Lectures and Exercises 6th ed.          **
  *                                              **
- *  Programming Exercises 6.1                   **
+ *  Programming Exercises 6.18                  **
  *************************************************
  */
 
@@ -11,17 +11,17 @@
 
 int main()
 {
-    char alphabet[26];
+    int friends = 5, week = 1;
 
-    //system("chcp 1251>0"); // windows encoding
-    for (int i = 0; i < 26; i++)
+    system("chcp 1251>0"); // windows encoding
+    while (friends < 150)
     {
-        alphabet[i] = 'a' + i;
+        friends -= week;
+        friends *= 2;
+        week++;
     }
-    for (int i = 0; i < 26; i++)
-    {
-        printf("%c\n", alphabet[i]);
-    }
+    printf("Количество друзей превысило число Данбара "
+           "спустя %d недель.\n", week);
 
     return 0;
 }
