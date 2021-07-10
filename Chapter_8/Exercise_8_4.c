@@ -15,6 +15,7 @@ int main()
     int ch, b=0;
     int numberOfWords=0, numberOfLetters=0;
 
+    system("chcp 1251>0"); // windows encoding
     while((ch=getchar()) != EOF)
     {
         if((ch != ' ') && (ch != '\n') && !ispunct(ch))

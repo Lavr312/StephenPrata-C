@@ -8,11 +8,12 @@
  */
 
 #include <stdio.h>
-#define MENU1 'a' // Английские буквы, потому что в ASCII нет кириллицы.
+#define MENU1 'a'
 #define MENU2 's'
 #define MENU3 'm'
 #define MENU4 'd'
 #define MENU5 'e'
+
 void outputMenu();
 char inputMenu();
 void operation(char menu);
@@ -22,6 +23,7 @@ int main()
 {
     char input;
 
+    system("chcp 1251>0"); // windows encoding
     outputMenu();
     while (input = inputMenu())
     {

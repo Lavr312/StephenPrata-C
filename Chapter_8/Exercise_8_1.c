@@ -6,12 +6,12 @@
  *  Programming Exercises 8.1                   **
  * ***********************************************
  */
-#include <stdio.h> // It was me, Dio!!!
+#include <stdio.h>
 
 int main()
 {
     int ch, k=0;
-    
+
     while ((ch = getchar()) != EOF)
     {
         if ((ch != '\n') && (ch != '\t') && (ch != ' '))

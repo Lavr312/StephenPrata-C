@@ -9,10 +9,12 @@
 
 #include <stdio.h>
 #include <ctype.h>
+
 char get_first();
 
 int main()
 {
+    system("chcp 1251>0"); // windows encoding
     printf("%c\n", get_first());
 
     return 0;

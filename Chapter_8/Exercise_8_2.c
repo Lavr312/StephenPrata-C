@@ -7,12 +7,14 @@
  * ***********************************************
  */
 #include <stdio.h>
+
 void Output(int ch);
 
 int main()
 {
     int ch, k=0;
 
+    system("chcp 1251>0"); // windows encoding
     while ((ch = getchar()) != EOF)
     {
         Output(ch);

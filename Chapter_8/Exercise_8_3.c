@@ -15,6 +15,7 @@ int main()
     int ch;
     int lowercase=0, uppercase=0, other=0;
 
+    system("chcp 1251>0"); // windows encoding
     while((ch = getchar()) != EOF)
     {
         if (isalpha(ch))
