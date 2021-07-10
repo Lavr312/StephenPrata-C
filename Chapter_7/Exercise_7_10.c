@@ -21,6 +21,7 @@ int main()
     int Category_i;
     double Income_d, Taxes_d;
 
+    system("chcp 1251>0"); // windows encoding
     printf("Укажите номер своей категории\n");
     printf("\n1) Одинокий\n2) Глава семейства\n");
     printf("3) Состоит в браке, совместное ведение хозяйства\n");
@@ -82,5 +83,6 @@ double Taxes(int Category, double Income)
                 Sum_taxes += Tax_interest_two * (Income - Cat4);
             break;
     }
+
     return Sum_taxes;
 }

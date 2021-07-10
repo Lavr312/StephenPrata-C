@@ -18,6 +18,7 @@ int main()
     int clock;
     double totalAmountOfCharges, numberOfTaxes, netSalary;
 
+    system("chcp 1251>0"); // windows encoding
     printf("Сколько часов вы отработали на этой недели?\n");
     scanf("%d", &clock);
     totalAmountOfCharges = totalSalary(clock);

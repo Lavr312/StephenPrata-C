@@ -18,10 +18,6 @@
 
 double Delivery(int Funt_i);
 
-// Спршиваем вес, после q
-// Расчитываем стоимость + скидка
-// Расчитываем доставку
-// Выводим итог.
 int main()
 {
     double Delivery_price_d;
@@ -31,6 +27,7 @@ int main()
     int Condition_i = 1; // Для выхода из while
     char In_c;
 
+    system("chcp 1251>0"); // windows encoding
     printf("Какой товар у вас?\n");
     printf("a) Artichoke\nb) Beet\nc) Carrot\nq) Выход\n\n");
     while ((scanf("%c", &In_c) == 1) && (Condition_i == 1))

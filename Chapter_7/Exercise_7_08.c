@@ -13,6 +13,7 @@
 #define TARIF1 9.33
 #define TARIF2 10.00
 #define TARIF3 11.20
+
 double totalSalary(int clock, double tarif);
 double taxes(double cash);
 void output(double totalAmountOfCharges, double taxes, double netSalary);
@@ -25,6 +26,7 @@ int main()
     double totalAmountOfCharges, numberOfTaxes, netSalary;
     double tarif = 10.0;
 
+    system("chcp 1251>0"); // windows encoding
     printf("Сколько часов вы отработали на этой недели?\n");
     scanf("%d", &clock);
     while ((tarif = menu()) != -1.0)
