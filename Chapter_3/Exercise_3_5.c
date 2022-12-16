@@ -15,7 +15,7 @@ int main()
     double secondInYears=3.156e7;
     int years;
 
-    system("chcp 1251>0");
+    //system("chcp 1251>0");
     printf("Введите возраст в годах\n");
     scanf("%d", &years);
     printf("%lf\n", secondInYears*years);
